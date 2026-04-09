@@ -53,7 +53,7 @@ export default function DeveloperPage() {
 
           {/* Social Links Grid */}
           <div className="grid grid-cols-4 gap-3 w-full max-w-sm mb-4">
-            <a href="#" className="flex flex-col items-center justify-center gap-2 bg-[#1C1C1E] hover:bg-[#2C2C2E] p-4 rounded-2xl transition-colors">
+            <a href="https://www.instagram.com/risyadhid1_23" className="flex flex-col items-center justify-center gap-2 bg-[#1C1C1E] hover:bg-[#2C2C2E] p-4 rounded-2xl transition-colors">
               <Globe className="w-6 h-6 text-white" />
               <span className="text-[10px] text-white/70 font-medium">Website</span>
             </a>
@@ -73,7 +73,7 @@ export default function DeveloperPage() {
 
           {/* Buy me a coffee */}
           <a 
-            href=""
+            href="https://saweria.co/Risyadh"
             target="_blank"
             rel="noopener noreferrer"
             className="w-full max-w-sm flex items-center gap-4 bg-[#1C1C1E] hover:bg-[#2C2C2E] p-5 rounded-3xl transition-colors mb-8"
