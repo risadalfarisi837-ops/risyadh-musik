@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     apple: 'https://f.top4top.io/p_3733w0g4e0.jpg',
   },
   verification: {
-    google: 'KODE_DARI_GOOGLE', 
+    google: 'U9SX6MF5eDEUvHxe1W8ISXPzeGq_ZE1aCSs6-vr0_uU', 
   },
 };
 
