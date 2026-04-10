@@ -1,5 +1,5 @@
-import type {Metadata, Viewport} from 'next';
-import './globals.css'; // Global styles
+import type { Metadata, Viewport } from 'next';
+import './globals.css';
 import { BottomNav } from '@/components/BottomNav';
 import { Player } from '@/components/Player';
 import { AddToPlaylistModal } from '@/components/AddToPlaylistModal';
@@ -7,8 +7,8 @@ import { PWARegister } from '@/components/PWARegister';
 import { BackgroundProvider } from '@/components/BackgroundProvider';
 
 export const metadata: Metadata = {
-  title: 'Music Risyad',
-  description: 'Platform streaming musik modern',
+  title: 'Music Risyadh',
+  description: 'Platform streaming musik modern buatan Risyadh',
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   icons: {
     apple: 'https://f.top4top.io/p_3733w0g4e0.jpg',
   },
+  verification: {
+    google: 'KODE_DARI_GOOGLE', 
+  },
 };
 
 export const viewport: Viewport = {
@@ -26,7 +29,7 @@ export const viewport: Viewport = {
 
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
-    <html lang="en">
+    <html lang="id">
       <body className="text-white antialiased pb-24 min-h-screen" suppressHydrationWarning>
         <BackgroundProvider />
         <PWARegister />
